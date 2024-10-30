@@ -5,9 +5,44 @@ const app = express();
 
 let DB = [
   {
-    id: Date.now(),
-    text: "enter text",
+    id: 1730281529820,
+    text: "enter text...",
+    backgraund: "color4",
+  },
+  {
+    id: 1730281554431,
+    text: "enter text...כעסגרדטרר",
+    backgraund: "color6",
+  },
+  {
+    id: 1730281558145,
+    text: "enter text...דאד5רט",
+    backgraund: "color5",
+  },
+  {
+    id: 1730281567722,
+    text: "enter text...",
+    backgraund: "color3",
+  },
+  {
+    id: 1730281598846,
+    text: "enter text...",
     backgraund: "color1",
+  },
+  {
+    id: 1730281628653,
+    text: "enter text...יכסכידוטא",
+    backgraund: "color9",
+  },
+  {
+    id: 1730281649554,
+    text: "enter text...סגול",
+    backgraund: "color7",
+  },
+  {
+    id: 1730281656403,
+    text: "eורוב בהיר",
+    backgraund: "color2",
   },
 ];
 
