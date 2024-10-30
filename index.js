@@ -1,24 +1,18 @@
 const express = require("express");
-// const cors = require('cors');
+const cors = require("cors");
 const port = 8000;
 const app = express();
-let counter = 2;
 
 let DB = [
   {
-    id: 0,
+    id: Date.now(),
     text: "enter text",
-    backgraund: "blue",
-  },
-  {
-    id: 1,
-    text: "Jane Doe",
-    backgraund: "asdds",
+    backgraund: "color1",
   },
 ];
 
 app.use(express.json());
-//app.use(cors());
+app.use(cors());
 
 app.get("/", (req, res) => {
   res.send("Hello, World!");
@@ -36,13 +30,12 @@ app.get("/cards/:id", (req, res) => {
 
 app.post("/cards", (req, res) => {
   const card = {
-    id: counter,
+    id: Date.now(),
     text: req.body.text,
     backgraund: req.body.backgraund,
   };
   DB.push(card);
   res.json(card);
-  counter++;
 });
 
 app.patch("/cards/:id", (req, res) => {
