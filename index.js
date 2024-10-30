@@ -6,42 +6,42 @@ const app = express();
 let DB = [
   {
     id: 1730281529820,
-    text: "enter text...",
+    text: "text 1",
     backgraund: "color4",
   },
   {
     id: 1730281554431,
-    text: "enter text...כעסגרדטרר",
+    text: "text 2",
     backgraund: "color6",
   },
   {
     id: 1730281558145,
-    text: "enter text...דאד5רט",
+    text: "text 3",
     backgraund: "color5",
   },
   {
     id: 1730281567722,
-    text: "enter text...",
+    text: "text 4",
     backgraund: "color3",
   },
   {
     id: 1730281598846,
-    text: "enter text...",
+    text: "text 5",
     backgraund: "color1",
   },
   {
     id: 1730281628653,
-    text: "enter text...יכסכידוטא",
+    text: "text 6",
     backgraund: "color9",
   },
   {
     id: 1730281649554,
-    text: "enter text...סגול",
+    text: "text 7",
     backgraund: "color7",
   },
   {
     id: 1730281656403,
-    text: "eורוב בהיר",
+    text: "enter text",
     backgraund: "color2",
   },
 ];
